@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Block Reels",
+  "description": "Block Reels",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://facebook.com/*", "https://*.facebook.com/*"],
+      "js": ["scripts/block_reels.js"]
+    }
+  ]
+}
